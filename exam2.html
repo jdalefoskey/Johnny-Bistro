@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Exam 2</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <img
+      src="https://media.istockphoto.com/photos/the-team-of-cooks-backs-in-the-work-in-the-modern-kitchen-the-of-the-picture-id1162911786?s=612x612"
+      alt="restaurant picture"
+      class="center"
+    />
+    <h1 id="header">Johnny's Bistro</h1>
+    <h3>
+      Current Number of Reviews:
+      <span id="counter">0</span>
+    </h3>
+    <!-- <h3>Posted Reviews</h3> -->
+    <ul id="list"></ul>
+    <form name="form" onsubmit="event.preventDefault();">
+      <input type="text" id="name" name="name" placeholder="Name" /><br />
+
+      <div id="spans">
+        <span onclick="rate1()" id="1star" class="fa fa-star"></span>
+        <span onclick="rate2()" id="2star" class="fa fa-star"></span>
+        <span onclick="rate3()" id="3star" class="fa fa-star"></span>
+        <span onclick="rate4()" id="4star" class="fa fa-star"></span>
+        <span onclick="rate5()" id="5star" class="fa fa-star"></span>
+      </div>
+      <br />
+      <textarea
+        id="review"
+        name="review"
+        rows="4"
+        cols="50"
+        placeholder="Please leave us a review"
+      ></textarea
+      ><br />
+
+      <button id="submitButton" onclick="submitAndClear()">
+        Submit your review
+      </button>
+    </form>
+
+    <script type="text/javascript" src="exam2.js"></script>
+  </body>
+</html>

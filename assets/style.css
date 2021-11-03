@@ -1,0 +1,69 @@
+#name {
+  margin-bottom: 10px;
+}
+
+#review {
+  margin-bottom: 10px;
+}
+
+#uncheck {
+  color: black;
+}
+
+.check {
+  color: orange;
+}
+
+.names {
+  margin-top: 20px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  font-size: 18px;
+}
+
+.reviews {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.rader {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  overflow: none;
+  font-size: 18px;
+}
+
+.center,
+h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h3 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  width: 70%;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+ul {
+  list-style-type: none;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+input,
+textarea {
+  background-color: aliceblue;
+}
